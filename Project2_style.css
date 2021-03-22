@@ -1,0 +1,107 @@
+/*An ID used to give all elements default background color and font. This
+also gives the webpage a colored background*/
+#Whole_Page {
+    background-color: burlywood;
+    border-style: ridge;
+    border-color: darkgoldenrod;
+    border-width: thick;
+    font: italic bold 100% Arial;
+    margin: auto;
+}
+
+/*An ID used to position where I want my picture to be on the webpage. */
+#Main_Title{ 
+    text-align: center;
+    margin-top: 4%;
+}
+
+/*An ID used to stylize the banner that sits at the top center of the webpage.
+As you scroll down the page, the banner will move along with you but remain in
+the same positioning.*/
+#Main_Header{ 
+    text-align: center;
+    background-color: rgb(243, 168, 55);
+    border-width: thick;
+    border-style: groove;
+    border-color: maroon;
+    width: 50%;
+    height: auto;
+    position: fixed;
+    left: 25%;
+    margin-top: 0%;
+    font: italic bold 150% Times;
+    
+    
+}
+
+/*An ID used to give my picture a nice colored border*/
+#MyPicture{
+    border-style: ridge;
+    border-width: thick;
+    border-color: olive;
+ 
+ }
+
+ /*Styles all header elements to have a background color thick border without affecting the 
+ text size that comes with that specific type of header element*/
+.NormalHeadings{
+    background-color: peru;
+    border-style: double;
+    border-width: thick;
+    padding-left: 1%;
+    
+}
+
+/*styles the div elements and its children of only class SectionStyle1 to have an maroon background
+with a solid border*/
+div.Section_Style1{
+    background-color: maroon;
+    border-style: solid;
+
+}
+
+/*styles the div elements and it's children of only class SectionStyle2 to have an orange background
+with a solid border*/
+div.Section_Style2{
+    background-color: darkorange;
+    border-style: solid;
+
+}
+
+/*Gives all p elements a bold and italicized look in the Arial font.
+Padding is also included so they aren't kissing the border of the webpage's border*/
+p{
+    text-align: left;
+    padding-left: 1%;
+    font: italic bold 100% Arial;
+}
+
+/*Hyperlinks are spaced out and colored in white because I WANT you to contact me!*/
+a{
+    text-align: left;
+    padding-left: 1%;
+    color: white;
+    
+}
+
+/*Applies to all lists a specific font and samller size than the p element
+Padding is also included so they aren't kissing the border of the webpage's border and
+positioned underneath (an indented look) the p element*/
+ul{
+    font: bold 100% Courier;
+    padding-left: 2.5%;
+}
+
+/*Gets the header's borders off of the webpage's but doesn't style the inner
+contents of the div sections*/
+div{
+    padding-left: 0.25%;
+    padding-right: 0.25%;
+}
+
+/*Also gets the h2 elements off the border of the webpage*/
+h2{
+    padding-left: 0.5%;
+}
+
+

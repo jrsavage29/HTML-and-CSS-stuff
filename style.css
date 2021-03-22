@@ -1,0 +1,40 @@
+#skills.credential-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    
+    background-color: palevioletred;
+    resize: both;
+    overflow: auto;
+}
+
+#skills-header{
+   grid-column: span 2; 
+}
+
+.skills-wrapper{
+    
+    font-size: 20px;
+    font-style: oblique;
+    
+}
+
+#programming-languages{
+
+    border-style: dashed;
+    background-color: peru;
+    border-color: midnightblue;
+    border-width: thick;
+    color: maroon;
+}
+
+#computer-skills{
+    border-style: dashed;
+    background-color: paleturquoise;
+    border-color: orangered;
+    border-width: thick;
+    color: seagreen;
+
+}
+
+
+
